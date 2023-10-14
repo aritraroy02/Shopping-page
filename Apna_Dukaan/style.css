@@ -17,9 +17,10 @@ header {
   border-bottom: 1px solid #b6b1b1;
 }
 .apna {
-  height: 80px;
-  width: 100px;
+  width: 120px;
+  cursor:pointer;
   font-weight: bolder;
+  
 }
 .logo_container {
   margin-left: 1%;
