@@ -10,7 +10,24 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
+.logo {
+  width: 150px;
+  height: 120px;
+  background: url(logo_black.png) no-repeat center;
+  background-size: cover;
+  z-index: 0;
+  position: absolute;
+}
 
+.logo.left {
+  top: 0;
+  left: 0;
+}
+
+.logo.right {
+  top: 0;
+  right: 0;
+}
 .container {
   position: relative;
   width: 100%;
