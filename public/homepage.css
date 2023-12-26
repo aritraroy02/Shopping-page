@@ -222,7 +222,7 @@ button {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #5a5f8f;
+  background-color: #525a9d;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -233,19 +233,19 @@ button {
 }
 
 .dropdown-content a {
-  color: rgb(0, 0, 0);
+  color: whitesmoke;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  opacity: 0.3;
 }
 
 .dropdown-content a:hover {
-  background-color: #e6d011;
+  opacity: 1.0;
+  color: black;
+  background-color: #2f388c;
+  
 }
-
-  
-  
-  
   /* Main section */
   .banner_container {
     margin: 40px 0;
