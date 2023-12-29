@@ -7,15 +7,17 @@
       display: none;
   }
 }
-@media screen and (min-width:992px) {
-  .search-box-1
-  {
-      display: none;
-  }
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
 }
 .navbar{
   background-color: #fff;
 }
+
 .navbar-toggler{
   border: none;
   font-size: 1.24rem;
